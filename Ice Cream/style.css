@@ -1,0 +1,152 @@
+body{
+    background: #6b3592;
+  }
+  .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .icecream{
+    align-self: center;
+    width: 60px;
+    height: 100px;
+    background-color: #afeeee;
+    border-radius: 20px 20px 10px 10px;
+    position: relative;
+   
+  }
+  
+  .stick{
+    position: absolute;
+    background-color: #DEB887;
+    width: 15px;
+    height: 70px;
+    bottom: -70px;
+    left: 22px;
+    border-radius: 0px 0px 4px 4px;
+    
+  }
+  
+  .sprinkle{
+    position: absolute;
+    background-color: #ffc0cb;
+    height: 10px;
+    width: 3px;
+    top: 10px;
+    right: 10px;
+    border-radius: 2px;
+  }
+  
+  .sprinkle00{
+    position: absolute;
+    background-color: #ffc0cb;
+    height: 10px;
+    width: 3px;
+    top: 40px;
+    right: 30px;
+    border-radius: 2px;
+  }
+  
+  .sprinkle01{
+    position: absolute;
+    background-color: #ffc0cb;
+    height: 10px;
+    width: 3px;
+    bottom: 6px;
+    left: 5px;
+    border-radius: 2px;
+  }
+  .sprinkle02{
+    position: absolute;
+    background-color: #ffc0cb;
+    height: 10px;
+    width: 3px;
+    bottom: 30px;
+    right: 20px;
+    border-radius: 2px;
+  }
+  
+  .sprinkle1{
+    position: absolute;
+    background-color: #9188ab;
+    height: 10px;
+    width: 3px;
+    top: 20px;
+    right: 30px;
+    border-radius: 2px;
+  }
+  
+  .sprinkle11{
+    position: absolute;
+    background-color: #9188ab;
+    height: 10px;
+    width: 3px;
+    top: 40px;
+    right: 3px;
+    border-radius: 2px;
+  }
+  
+  .sprinkle12{
+    position: absolute;
+    background-color: #9188ab;
+    height: 10px;
+    width: 3px;
+    top:  60px;
+    left: 3px;
+    border-radius: 2px;
+  }
+  
+  .sprinkle13{
+    position: absolute;
+    background-color: #9188ab;
+    height: 10px;
+    width: 3px;
+    bottom:  10px;
+    left: 30px;
+    border-radius: 2px;
+  }
+  
+  .sprinkle2{
+    position: absolute;
+    background-color: #45b08c;
+    height: 10px;
+    width: 3px;
+    top:  8px;
+    left: 10px;
+    border-radius: 2px;
+  }
+  
+  .sprinkle21{
+    position: absolute;
+    background-color: #45b08c;
+    height: 10px;
+    width: 3px;
+    top:  40px;
+    left: 5px;
+    border-radius: 2px;
+  }
+  .sprinkle22{
+    position: absolute;
+    background-color: #45b08c;
+    height: 10px;
+    width: 3px;
+    bottom:  10px;
+    right: 5px;
+    border-radius: 2px;
+  }
+  
+  .sprinkle23{
+    position: absolute;
+    background-color: #45b08c;
+    height: 10px;
+    width: 3px;
+    bottom:  30px;
+    left: 25px;
+    border-radius: 2px;
+  }
+  
+  
+  
+  
+  

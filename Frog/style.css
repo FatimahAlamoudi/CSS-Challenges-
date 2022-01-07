@@ -1,0 +1,89 @@
+.canvas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  body{
+    background: #293462;
+  }
+  .head{
+    position: relative;
+    background: #FE5F55;
+    height: 23vh;
+    width: 25vw;
+    display: flex;
+  /*   clip-path: polygon(50% 0%, 100% 44%, 82% 100%, 20% 100%, 0% 44%); */
+  /*   transform: rotate(180deg); */
+    border-radius: 20em 20em 20em 20em;
+  /*   border-radius:top-left top-right bottom-right bottom-left */
+  }
+  
+  .left-eye{
+    background: #FE5F55;
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    position: absolute; 
+    bottom: 80%;
+    right: 60%;
+  }
+  
+  .right-eye{
+    background: #FE5F55;
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    position: absolute; 
+    bottom: 80%;
+    left: 60%;
+  }
+  
+  .eye{
+    background:#FFF1C1;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: 18%;
+  }
+  
+  .cornea{
+    background: #293462;
+    width: .7em;
+    height: .7em;
+    border-radius: 50%;
+    position: absolute;
+    top: 35%;
+    left: 32%;
+  }
+  
+  .nose{
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      height: 25vh;
+      width: 40vw;
+      justify-content: center;
+  }
+  .left-nostril, .right-nostril{
+    background: #293462;
+    height: .8em;
+    width: .8em;
+    border-radius: 50%;
+    margin: .3em;
+  }
+  
+  .mouth{
+    background: #A64942;
+    height: 8.3vh;
+    width: 24.1vw;
+    border-radius: 1em 1em 20em 20em;
+    clip-path: polygon(72% 11%, 49% 14%, 27% 11%, 0% 0%, 0% 25%, 0% 48%, 0% 81%, 0% 100%, 42% 100%, 60% 100%, 85% 100%, 100% 100%, 100% 47%, 100% 0%);
+    position: absolute;
+    top: 65%;
+    right: 1.7%;
+  }
+  
+  /*  clip-path: polygon(49% 28%, 100% 21%, 100% 100%, 75% 100%, 25% 100%, 0 100%, 0 21%); */
