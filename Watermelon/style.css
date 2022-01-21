@@ -1,0 +1,168 @@
+body{
+    background-color: #ffd1dc;
+  }
+  
+  .canvas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .body{
+    width: 20rem;
+    height: 20rem;
+   clip-path: polygon(50% 0%, 0% 100%, 100%     100%);
+    border-radius: 50%;
+    background-color: #F35588;
+    border-bottom: 3rem solid #71A95A;
+    position:relative; 
+  }
+  
+   .seed{
+    position: absolute;
+    height: 1.8em;
+    width: 1em;
+    border-radius: 70%;
+    z-index: 100;
+  }
+  
+  .white{
+    background-color: #fff;
+  }
+  
+  .black{
+    background-color: #000;
+  }
+  .seed1{ 
+    top: 23%;
+    left: 50%;
+    transform: rotate(-11deg);
+  }
+  
+  .seed2{ 
+    top: 20%;
+    left: 40%;
+    transform: rotate(12deg);
+  }
+  
+  .seed3{
+    top: 32%;
+    left: 37%;
+    transform: rotate(3deg);
+  }
+  
+  .seed4{
+    top: 50%;
+    left: 40%;
+    transform: rotate(10deg);
+  }
+  
+  .seed5{
+    top: 37%;
+    left: 56%;
+    transform: rotate(1deg);
+  }
+  
+  .seed6{
+    top: 40%;
+    left: 42%;
+    transform: rotate(1deg);
+  }
+  
+  .seed7{
+    top: 45%;
+    left: 49%;
+    transform: rotate(6deg);
+  }
+  
+  .seed8{
+    top: 34%;
+    left: 49%;
+    transform: rotate(6deg);
+  }
+  
+  .seed9{
+    top: 50%;
+    left: 30%;
+    transform: rotate(6deg);
+  }
+  
+  .seed10{
+    top: 50%;
+    right: 30%;
+    transform: rotate(6deg);
+  }
+  
+  .seed11{
+    top: 60%;
+    left: 24%;
+    transform: rotate(6deg);
+  }
+  
+  .seed12{
+    top: 75%;
+    left: 20%;
+    transform: rotate(6deg);
+  }
+  
+  .seed13{
+    top: 75%;
+    right: 20%;
+    transform: rotate(-20deg);
+  }
+  
+  .seed14{
+    top: 15%;
+    right: 46%;
+    transform: rotate(-20deg);
+  }
+  
+  .eye{
+    display: flex;
+    justify-content: center;
+    height: 79vh;
+    gap:1em;
+  }
+  .left-eye{
+    position: absolute;
+    bottom: 20%;
+    right: 30%;
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+    background-color: #fff;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .right-eye{
+    position: absolute;
+    bottom: 20%;
+    left: 30%;
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .inside{
+    width: 1.2em;
+    height: 1.2em;
+    background-color: #000;
+    border-radius: 50%;
+  }
+  
+  .mouth{
+    border-bottom: 1em solid #000;
+    border-radius: 50%;
+    height: .5em;
+    width: 3em;
+    position: absolute;
+    bottom: 10%;
+    right: 43%;
+  }

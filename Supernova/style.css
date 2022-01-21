@@ -1,0 +1,48 @@
+body{
+    background: #243D83;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(45deg);
+    height:100vh;
+  }
+  .square{
+    position: relative;
+    apect-ratio: 1;
+    width: 7rem;
+    background: #243D83;
+    height: 7rem;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 3rem;
+  }
+  
+  .square::before, .square::after{
+    content: '';
+    position: absolute;
+    background: #6592CF;
+    height: 200%;
+    width: 85%;
+    z-index: -1;
+    transform: translateY(-50%);
+    border-radius: 100vw;
+  }
+  
+  .square::after{
+    background: #6592CF;
+    top: 50%;
+  }
+  
+  .square::before{
+    transform: rotate(90deg);
+    top: -50%;
+  }
+ 
+  .circle{
+    aspect-ratio:1;
+    background: #EEB850;
+    height: 3.5rem;
+    border-radius: 50%;
+  }

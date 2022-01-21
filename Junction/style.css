@@ -1,0 +1,36 @@
+body{
+    background: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  div{
+    width: 100%;
+    height: 40px;
+    border-radius: 100vw;
+    background: #FE5F55;
+    position: absolute;
+  }
+  .a{
+    top: 130;
+    background: #A64942;
+  }
+  .one{
+    left: -220;
+  }
+  .two{
+    left: 220;
+  }
+  
+  .b{
+    transform: rotate(90deg);
+    left: 0;
+  }
+  .three{
+    top: -90px;
+  }
+  .four{
+    top: 350px;
+  }
