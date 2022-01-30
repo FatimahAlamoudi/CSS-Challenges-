@@ -1,0 +1,42 @@
+body {
+    background: #F7F3DA;
+    display: flex;
+    align-items: center;
+    margin: 0;
+  }
+  .line{
+    height: 80px;
+    background: #D25B70;
+    width: 100%;
+  }
+  
+  .left{
+    border-radius: 0 10px 0 0;
+  }
+  
+  .right{
+    border-radius: 0 0 0 10px;
+  }
+  
+  .c{
+    position: absolute;
+    background:#D25B70;
+    inset: 45% 0 55% 0;
+    height: 30px;
+  }
+  
+  .cover{
+    position: absolute;
+    background: #F7F3DA;
+  }
+  
+  .right{
+     inset: 0 0 50% 50%;
+     border-radius: 0 0 0 20px;
+  }
+  
+  .left{
+    inset: 50% 50% 0 0;
+     border-radius: 0 20px 0 0;
+  }
+ 

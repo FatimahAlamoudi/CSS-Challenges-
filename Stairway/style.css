@@ -1,0 +1,56 @@
+body{
+    background:#191919;
+  } 
+
+  
+  .wall{
+    background: #4F77FF;
+    height: 9rem;
+    width: 6.1rem;
+    border-top-left-radius: 100vh;
+    border-top-right-radius: 100vh;
+    position: absolute;
+    top: 80;
+    left: 150;
+  }
+  
+  .stars{
+    display: grid;
+    grid-template-areas: 'one'
+      					'two'
+      					'three'
+      					'four';
+ 
+      
+  }
+  .stair{
+     height: 1.3rem;
+     width: 6rem;
+     background: #191919;
+     position: absolute;
+  }
+  
+  .one{
+    grid-area: one;
+    top: 125; 
+    left: 21;
+  }
+  
+  .two{
+    grid-area: two;
+    top: 100;
+    left: 42; 
+  }
+  
+    .three{
+    grid-area: three;
+    top: 75;
+    left: 60; 
+  }
+  
+  .four{
+    grid-area: four;
+    top: 50;
+    left: 75; 
+  }
+  

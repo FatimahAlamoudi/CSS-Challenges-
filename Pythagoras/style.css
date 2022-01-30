@@ -1,0 +1,35 @@
+body{
+    background: #D25B70;
+  }
+  
+  .bottom{
+    height: 6.2rem;
+    aspect-ratio: 1;
+    background: #F7F3DA;
+    position: absolute;
+    left: 38%;
+    top: 50%;
+  }
+  
+  .top{
+    display: flex;
+  }
+  
+  .left{
+    background: #6CB3A9;
+    height: 3.9rem;
+    aspect-ratio: 1;
+    transform: rotate(39deg);
+    position: absolute;
+    top: 25%;
+    left: 28.7%
+  }
+  .right{
+    background: #F6DF96;
+    height: 4.8rem;
+    aspect-ratio: 1;
+    transform: rotate(39deg);
+    position: absolute;
+    top: 19%;
+    left: 51.4%
+  }

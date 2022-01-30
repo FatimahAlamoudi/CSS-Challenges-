@@ -1,0 +1,46 @@
+body{
+    background: #F3AC3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .inner{
+    background: #F3AC3C;
+    width: 75px;
+    aspect-ratio: 1;
+    border-radius: 10px;
+    z-index: 100;
+  }
+  .shape{
+    height: 100px;
+    width: 100px;
+    background: #1A4341;
+    border-radius: 10px;
+    position: absolute;
+  }
+  .left{
+    transform: translate(-85px, -35px);
+  }
+  .right{
+     transform: translate(86px, 35px);
+  }
+  
+  .left::before, 
+  .right::before{
+    content: '';
+    display: block;
+    border-radius: inherit;
+    width: 100%;
+    height: 50%;
+    background: #1A4341;
+  }
+ 
+  .left::before{
+    transform: translateX(50%);
+  }
+  
+  .right::before{
+    transform: translate(-50%, 100%);
+  }
